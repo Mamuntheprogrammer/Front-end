@@ -37,17 +37,17 @@ body {
   position: relative;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 45px;
   left: 45px;
 }
 
-.logo {
+.header__logo {
   height: 45px;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 35%;
   left: 50%;
@@ -61,7 +61,7 @@ body {
   backface-visibility: hidden;
   margin-bottom: 50px;
 }
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 60px;
   font-weight: 400;
@@ -70,7 +70,7 @@ body {
   animation-duration: 1s;
   animation-timing-function: ease-out;
 }
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 18px;
   letter-spacing: 17.4px;
@@ -143,7 +143,7 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
@@ -161,7 +161,7 @@ body {
   transition: all 0.4s;
 }
 
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
 
@@ -170,7 +170,7 @@ body {
   opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom 0.5s ease-in-out 0.75s;
   animation-fill-mode: backwards;
 }
